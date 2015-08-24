@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/nobre84/UIImage-OverrideableXCAssets.git", :tag => s.version.to_s }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Library", "Library/*.{h,m}"
 
   s.dependency 'JRSwizzle', '~> 1.0'
 

@@ -6,8 +6,7 @@
 //
 
 #import "UIImage+OverrideableXCAssets.h"
-#import "JRSwizzle.h"
-#import "ObjcAssociatedObjectHelpers.h"
+#import <JRSwizzle.h>
 
 static NSString *_xcassetsOverridePrefix = @"override_";
 

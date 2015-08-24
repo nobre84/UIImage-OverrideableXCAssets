@@ -1,0 +1,27 @@
+{
+  "name": "UIImage-OverrideableXCAssets",
+  "version": "0.1",
+  "summary": "UIImage category to allow loading different assets from multiple targets by adding a prefix.",
+  "description": "Problem: Multiple target scenario that should load different assets from a xcassets file. This simple UIImage category checks the existance of an overridden asset name with a configurable prefix and loads it instead using by swizzling UIImage's imagedNamed: and imageNamed:inBundle:compatibleWithTraitCollection:",
+  "homepage": "https://github.com/nobre84/UIImage-OverrideableXCAssets",
+  "license": "MIT",
+  "authors": {
+    "Rafael Nobre": "nobre84@gmail.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/nobre84/UIImage-OverrideableXCAssets.git",
+    "tag": "0.1"
+  },
+  "source_files": [
+    "Library",
+    "Library/*.{h,m}"
+  ],
+  "dependencies": {
+    "JRSwizzle": [
+      "~> 1.0"
+    ]
+  }
+}

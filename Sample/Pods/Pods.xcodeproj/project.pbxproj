@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D25BA879E245C1C202CC4027638F46E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB172BBADBEA8245804A45FBECD8B68 /* Foundation.framework */; };
+		7D513F712E1A2C16DAA71BF8A324D521 /* UIImage+OverrideableXCAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA21C02668ACDF12809DCA2B150BD8B /* UIImage+OverrideableXCAssets.h */; };
+		99D708314A9C6F1E2090270695C31149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB172BBADBEA8245804A45FBECD8B68 /* Foundation.framework */; };
+		A2BC124AE6A3D377581E28C8D6DF0723 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266C5BE1072B75273AB0C6AD2173E78 /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A50A1A1F5D60F0C5920A2710291FD706 /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692127D46B41A9D62A332FEFA8D11D4 /* JRSwizzle-dummy.m */; };
+		C6725AFA87150AB7131147BDCACACD63 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 368D09EC6E9B752AFA2CE09C15889E1D /* JRSwizzle.h */; };
+		DAD133072FF590034B0F972452CFB0C7 /* Pods-OverrideableXCAssets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE54C1C51E31DCCE3836EDB781FB7EA /* Pods-OverrideableXCAssets-dummy.m */; };
+		EEDBCA89A798CA60F652D84505431628 /* UIImage-OverrideableXCAssets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA57177D40F086C37DD9F48A79A645FE /* UIImage-OverrideableXCAssets-dummy.m */; };
+		F27899A6A9E1F2AC4D49F4FA49D4BB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB172BBADBEA8245804A45FBECD8B68 /* Foundation.framework */; };
+		FE3FE4D87BEF6509D065A7027F57BA3F /* UIImage+OverrideableXCAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 977B02E675A71B98A64AF2587D46980D /* UIImage+OverrideableXCAssets.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C8CAF459B859AB1EC4AB8A8017E4BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6095E4456C3508695AD0F4600D40D904;
+			remoteInfo = JRSwizzle;
+		};
+		513EAAF4D6A5B89D5167892980A90365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E00AA31AC0CFA78CBDB444B38DCC04D;
+			remoteInfo = "UIImage-OverrideableXCAssets";
+		};
+		6B2BBEF4B8308286CEEC69517983D9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6095E4456C3508695AD0F4600D40D904;
+			remoteInfo = JRSwizzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209855E071C3C5E062BA4CDBAA902FDD /* libUIImage-OverrideableXCAssets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIImage-OverrideableXCAssets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C8D0FF9ED930E3DD82DFFAC6DB4552 /* UIImage-OverrideableXCAssets-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage-OverrideableXCAssets-Private.xcconfig"; sourceTree = "<group>"; };
+		368D09EC6E9B752AFA2CE09C15889E1D /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		4266C5BE1072B75273AB0C6AD2173E78 /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		4BB0C3C5880315B05D5EA724A1323551 /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
+		5E5993C2FC609449A08054C1396C527F /* JRSwizzle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JRSwizzle-Private.xcconfig"; sourceTree = "<group>"; };
+		61DB22589D6EED310E6DBD37B17B6F34 /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
+		715D518F0B7ACE1A6C9304FE657B295E /* UIImage-OverrideableXCAssets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage-OverrideableXCAssets-prefix.pch"; sourceTree = "<group>"; };
+		79B33701BD9888752F52A3B999016EFE /* UIImage-OverrideableXCAssets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage-OverrideableXCAssets.xcconfig"; sourceTree = "<group>"; };
+		7EE54C1C51E31DCCE3836EDB781FB7EA /* Pods-OverrideableXCAssets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OverrideableXCAssets-dummy.m"; sourceTree = "<group>"; };
+		87D1376475A1016DEAB76ECC7F1B9AAE /* Pods-OverrideableXCAssets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverrideableXCAssets.debug.xcconfig"; sourceTree = "<group>"; };
+		8D97688DD503815A6365D9B0256FE365 /* Pods-OverrideableXCAssets-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverrideableXCAssets-acknowledgements.plist"; sourceTree = "<group>"; };
+		9692127D46B41A9D62A332FEFA8D11D4 /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
+		977B02E675A71B98A64AF2587D46980D /* UIImage+OverrideableXCAssets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OverrideableXCAssets.m"; sourceTree = "<group>"; };
+		A63D9226C6D1CC273032E205CD444EF2 /* Pods-OverrideableXCAssets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverrideableXCAssets.release.xcconfig"; sourceTree = "<group>"; };
+		AA57177D40F086C37DD9F48A79A645FE /* UIImage-OverrideableXCAssets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage-OverrideableXCAssets-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAA21C02668ACDF12809DCA2B150BD8B /* UIImage+OverrideableXCAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+OverrideableXCAssets.h"; sourceTree = "<group>"; };
+		CAB172BBADBEA8245804A45FBECD8B68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D21997BD9BD07FAFBB9E95F18905E9E3 /* libJRSwizzle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJRSwizzle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8964780BE6D14CFF88A958B5C52D542 /* Pods-OverrideableXCAssets-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OverrideableXCAssets-resources.sh"; sourceTree = "<group>"; };
+		E6EC8E7CCD8D0888240A26463C35BE44 /* libPods-OverrideableXCAssets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverrideableXCAssets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F741484475B2FC2D51899FBFA4D0AB77 /* Pods-OverrideableXCAssets-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OverrideableXCAssets-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ADAF7D4142BCE249763671457AC0D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27899A6A9E1F2AC4D49F4FA49D4BB06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01B19AB39BBC78C5F17AD9AFABAD360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D708314A9C6F1E2090270695C31149 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9718243D19ACBF8D6E091400F0C438E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D25BA879E245C1C202CC4027638F46E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD5F5ED835D6FC661A5A98D5CFCDCFA /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				368D09EC6E9B752AFA2CE09C15889E1D /* JRSwizzle.h */,
+				4266C5BE1072B75273AB0C6AD2173E78 /* JRSwizzle.m */,
+				8A69F4973C60D3C83A57EA8EB543F259 /* Support Files */,
+			);
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAB172BBADBEA8245804A45FBECD8B68 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5878B3BD3EAC3C9BDD149B504EA4900B /* Pods-OverrideableXCAssets */ = {
+			isa = PBXGroup;
+			children = (
+				F741484475B2FC2D51899FBFA4D0AB77 /* Pods-OverrideableXCAssets-acknowledgements.markdown */,
+				8D97688DD503815A6365D9B0256FE365 /* Pods-OverrideableXCAssets-acknowledgements.plist */,
+				7EE54C1C51E31DCCE3836EDB781FB7EA /* Pods-OverrideableXCAssets-dummy.m */,
+				D8964780BE6D14CFF88A958B5C52D542 /* Pods-OverrideableXCAssets-resources.sh */,
+				87D1376475A1016DEAB76ECC7F1B9AAE /* Pods-OverrideableXCAssets.debug.xcconfig */,
+				A63D9226C6D1CC273032E205CD444EF2 /* Pods-OverrideableXCAssets.release.xcconfig */,
+			);
+			name = "Pods-OverrideableXCAssets";
+			path = "Target Support Files/Pods-OverrideableXCAssets";
+			sourceTree = "<group>";
+		};
+		745F1C572426B9F80AE1C265EA400C0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5F5ED835D6FC661A5A98D5CFCDCFA /* JRSwizzle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8246300E880E402339B5AF1D41C487B9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				745F1C572426B9F80AE1C265EA400C0E /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				844FB96845FCABCBADD3A69AD4A74FCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8246300E880E402339B5AF1D41C487B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA66400E387488A933F7E0BCB44BDF1C /* UIImage-OverrideableXCAssets */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		844FB96845FCABCBADD3A69AD4A74FCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5878B3BD3EAC3C9BDD149B504EA4900B /* Pods-OverrideableXCAssets */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8A69F4973C60D3C83A57EA8EB543F259 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB0C3C5880315B05D5EA724A1323551 /* JRSwizzle.xcconfig */,
+				5E5993C2FC609449A08054C1396C527F /* JRSwizzle-Private.xcconfig */,
+				9692127D46B41A9D62A332FEFA8D11D4 /* JRSwizzle-dummy.m */,
+				61DB22589D6EED310E6DBD37B17B6F34 /* JRSwizzle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JRSwizzle";
+			sourceTree = "<group>";
+		};
+		AA66400E387488A933F7E0BCB44BDF1C /* UIImage-OverrideableXCAssets */ = {
+			isa = PBXGroup;
+			children = (
+				F41758C9EAC616668D12B14057A9B905 /* Library */,
+				D162ABE8689EE764CB094D9F05E4A51B /* Support Files */,
+			);
+			name = "UIImage-OverrideableXCAssets";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21997BD9BD07FAFBB9E95F18905E9E3 /* libJRSwizzle.a */,
+				E6EC8E7CCD8D0888240A26463C35BE44 /* libPods-OverrideableXCAssets.a */,
+				209855E071C3C5E062BA4CDBAA902FDD /* libUIImage-OverrideableXCAssets.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D162ABE8689EE764CB094D9F05E4A51B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79B33701BD9888752F52A3B999016EFE /* UIImage-OverrideableXCAssets.xcconfig */,
+				25C8D0FF9ED930E3DD82DFFAC6DB4552 /* UIImage-OverrideableXCAssets-Private.xcconfig */,
+				AA57177D40F086C37DD9F48A79A645FE /* UIImage-OverrideableXCAssets-dummy.m */,
+				715D518F0B7ACE1A6C9304FE657B295E /* UIImage-OverrideableXCAssets-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/UIImage-OverrideableXCAssets";
+			sourceTree = "<group>";
+		};
+		F41758C9EAC616668D12B14057A9B905 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BAA21C02668ACDF12809DCA2B150BD8B /* UIImage+OverrideableXCAssets.h */,
+				977B02E675A71B98A64AF2587D46980D /* UIImage+OverrideableXCAssets.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		189B681BAE6DA146A89AD74A02D1CAA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D513F712E1A2C16DAA71BF8A324D521 /* UIImage+OverrideableXCAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF8E9CD95DC7CC408E1F0D9E977DB09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6725AFA87150AB7131147BDCACACD63 /* JRSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		254F581F059B7D7F61FE215C524E993A /* Pods-OverrideableXCAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A520BEB946C013A8DC11160EAB1DF5 /* Build configuration list for PBXNativeTarget "Pods-OverrideableXCAssets" */;
+			buildPhases = (
+				55568A541A4FA924C866480FBCC87082 /* Sources */,
+				C01B19AB39BBC78C5F17AD9AFABAD360 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2F6156082B3C847B7C9951FDE91545 /* PBXTargetDependency */,
+				BC1ADABC11CB480A372308744F022778 /* PBXTargetDependency */,
+			);
+			name = "Pods-OverrideableXCAssets";
+			productName = "Pods-OverrideableXCAssets";
+			productReference = E6EC8E7CCD8D0888240A26463C35BE44 /* libPods-OverrideableXCAssets.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6095E4456C3508695AD0F4600D40D904 /* JRSwizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1552CED082AF5A615747E998984E6F /* Build configuration list for PBXNativeTarget "JRSwizzle" */;
+			buildPhases = (
+				2A49B3AB4E8A8DB3B5C4B04ED6FD78C2 /* Sources */,
+				5ADAF7D4142BCE249763671457AC0D23 /* Frameworks */,
+				7DF8E9CD95DC7CC408E1F0D9E977DB09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRSwizzle;
+			productName = JRSwizzle;
+			productReference = D21997BD9BD07FAFBB9E95F18905E9E3 /* libJRSwizzle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E00AA31AC0CFA78CBDB444B38DCC04D /* UIImage-OverrideableXCAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276A515BF1F7900A6225352B08D6FB00 /* Build configuration list for PBXNativeTarget "UIImage-OverrideableXCAssets" */;
+			buildPhases = (
+				4F4210D538912A5E64184CE1225B740A /* Sources */,
+				E9718243D19ACBF8D6E091400F0C438E /* Frameworks */,
+				189B681BAE6DA146A89AD74A02D1CAA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				997366D53E269C8C0334EE205D2D8FE9 /* PBXTargetDependency */,
+			);
+			name = "UIImage-OverrideableXCAssets";
+			productName = "UIImage-OverrideableXCAssets";
+			productReference = 209855E071C3C5E062BA4CDBAA902FDD /* libUIImage-OverrideableXCAssets.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6095E4456C3508695AD0F4600D40D904 /* JRSwizzle */,
+				254F581F059B7D7F61FE215C524E993A /* Pods-OverrideableXCAssets */,
+				6E00AA31AC0CFA78CBDB444B38DCC04D /* UIImage-OverrideableXCAssets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A49B3AB4E8A8DB3B5C4B04ED6FD78C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50A1A1F5D60F0C5920A2710291FD706 /* JRSwizzle-dummy.m in Sources */,
+				A2BC124AE6A3D377581E28C8D6DF0723 /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4210D538912A5E64184CE1225B740A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3FE4D87BEF6509D065A7027F57BA3F /* UIImage+OverrideableXCAssets.m in Sources */,
+				EEDBCA89A798CA60F652D84505431628 /* UIImage-OverrideableXCAssets-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55568A541A4FA924C866480FBCC87082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD133072FF590034B0F972452CFB0C7 /* Pods-OverrideableXCAssets-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		997366D53E269C8C0334EE205D2D8FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = 6095E4456C3508695AD0F4600D40D904 /* JRSwizzle */;
+			targetProxy = 1C8CAF459B859AB1EC4AB8A8017E4BA2 /* PBXContainerItemProxy */;
+		};
+		BC1ADABC11CB480A372308744F022778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage-OverrideableXCAssets";
+			target = 6E00AA31AC0CFA78CBDB444B38DCC04D /* UIImage-OverrideableXCAssets */;
+			targetProxy = 513EAAF4D6A5B89D5167892980A90365 /* PBXContainerItemProxy */;
+		};
+		EB2F6156082B3C847B7C9951FDE91545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = 6095E4456C3508695AD0F4600D40D904 /* JRSwizzle */;
+			targetProxy = 6B2BBEF4B8308286CEEC69517983D9F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00104414D5886E1F82CDCE86999F8BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5993C2FC609449A08054C1396C527F /* JRSwizzle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1CEC3DD32E260AEB99BB9C3EF88A6EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63D9226C6D1CC273032E205CD444EF2 /* Pods-OverrideableXCAssets.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2C5E36680F8C40BD3B05BC6BD23B4C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D1376475A1016DEAB76ECC7F1B9AAE /* Pods-OverrideableXCAssets.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5DCF0E6D18F69816974AA4342A031A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5993C2FC609449A08054C1396C527F /* JRSwizzle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		744A491616E05D10F3FC4BC0CE52A55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C8D0FF9ED930E3DD82DFFAC6DB4552 /* UIImage-OverrideableXCAssets-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage-OverrideableXCAssets/UIImage-OverrideableXCAssets-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F65C13EA2B601EE5D9E0336B6DAC9159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C8D0FF9ED930E3DD82DFFAC6DB4552 /* UIImage-OverrideableXCAssets-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage-OverrideableXCAssets/UIImage-OverrideableXCAssets-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A520BEB946C013A8DC11160EAB1DF5 /* Build configuration list for PBXNativeTarget "Pods-OverrideableXCAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5E36680F8C40BD3B05BC6BD23B4C41 /* Debug */,
+				1CEC3DD32E260AEB99BB9C3EF88A6EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276A515BF1F7900A6225352B08D6FB00 /* Build configuration list for PBXNativeTarget "UIImage-OverrideableXCAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65C13EA2B601EE5D9E0336B6DAC9159 /* Debug */,
+				744A491616E05D10F3FC4BC0CE52A55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1552CED082AF5A615747E998984E6F /* Build configuration list for PBXNativeTarget "JRSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00104414D5886E1F82CDCE86999F8BE5 /* Debug */,
+				5DCF0E6D18F69816974AA4342A031A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
