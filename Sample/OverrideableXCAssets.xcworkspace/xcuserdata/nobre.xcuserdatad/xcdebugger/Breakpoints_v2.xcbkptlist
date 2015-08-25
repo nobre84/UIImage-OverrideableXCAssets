@@ -9,24 +9,8 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Library/UIImage+OverrideableXCAssets.m"
-            timestampString = "462161851.664727"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "+imageNamedReplacement:inBundle:compatibleWithTraitCollection:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Library/UIImage+OverrideableXCAssets.m"
-            timestampString = "462161852.76089"
+            filePath = "OverrideableXCAssets/UIImage+OverrideableXCAssets.m"
+            timestampString = "462207479.243488"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -41,8 +25,24 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Library/UIImage+OverrideableXCAssets.m"
-            timestampString = "462161855.048823"
+            filePath = "OverrideableXCAssets/UIImage+OverrideableXCAssets.m"
+            timestampString = "462207480.36862"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "+imageNamedReplacement:inBundle:compatibleWithTraitCollection:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OverrideableXCAssets/UIImage+OverrideableXCAssets.m"
+            timestampString = "462207502.497172"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -57,8 +57,8 @@
                   symbolName = "+[UIImage(OverrideableXCAssets) load]"
                   moduleName = "Override2"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nobre/Documents/UIImage-OverrideableXCAssets/Library/UIImage+OverrideableXCAssets.m"
-                  timestampString = "462161895.867327"
+                  urlString = "file:///Users/nobre/Documents/UIImage-OverrideableXCAssets/Sample/OverrideableXCAssets/UIImage+OverrideableXCAssets.m"
+                  timestampString = "462207870.355662"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -72,8 +72,8 @@
                   symbolName = "+[UIImage(OverrideableXCAssets) load]"
                   moduleName = "Override1"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nobre/Documents/UIImage-OverrideableXCAssets/Library/UIImage+OverrideableXCAssets.m"
-                  timestampString = "462161896.004468"
+                  urlString = "file:///Users/nobre/Documents/UIImage-OverrideableXCAssets/Sample/OverrideableXCAssets/UIImage+OverrideableXCAssets.m"
+                  timestampString = "462207870.360051"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -81,6 +81,22 @@
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Library/UIImage+OverrideableXCAssets.m"
+            timestampString = "462207513.308489"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "+load"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

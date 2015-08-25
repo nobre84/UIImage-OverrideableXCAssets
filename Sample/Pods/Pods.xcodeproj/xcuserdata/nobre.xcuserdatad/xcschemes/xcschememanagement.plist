@@ -3,7 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict/>
+	<dict>
+		<key>JRSwizzle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIImage-OverrideableXCAssets.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>2D56DA1029F9D45D49821535990320A7</key>
@@ -11,12 +27,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E00AA31AC0CFA78CBDB444B38DCC04D</key>
+		<key>6937AA40E4719AD8C360A71A8935B34E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A68045A12CF240B3225E5FCEC425A0BF</key>
+		<key>6E00AA31AC0CFA78CBDB444B38DCC04D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

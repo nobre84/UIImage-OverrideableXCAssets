@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'JRSwizzle', '~> 1.0'
 
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
 
 end

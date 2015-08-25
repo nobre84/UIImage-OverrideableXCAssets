@@ -25,6 +25,6 @@
     ]
   },
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC"
+    "OTHER_LDFLAGS": "-all_load"
   }
 }
