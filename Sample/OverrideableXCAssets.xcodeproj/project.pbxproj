@@ -27,11 +27,14 @@
 		00A847BA1B8BC6D100FC0F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A847431B8BBBC300FC0F90 /* Main.storyboard */; };
 		00A847BB1B8BC6D500FC0F90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A847461B8BBBC300FC0F90 /* Images.xcassets */; };
 		00A847BC1B8BC6D700FC0F90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A847481B8BBBC300FC0F90 /* LaunchScreen.xib */; };
+		0812EE3F977076067413A830 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7935DB7F0382D60F1292C7C7 /* libPods.a */; };
+		54F92812EEBF5FE3361E5A18 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7935DB7F0382D60F1292C7C7 /* libPods.a */; };
 		99D425F0884398FE4CCA4E0D /* libPods-OverrideableXCAssets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A3EF5131CC861E9C54C7AE /* libPods-OverrideableXCAssets.a */; };
+		FCA54DAF0EBD1E443038D5D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7935DB7F0382D60F1292C7C7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00A847361B8BBBC300FC0F90 /* OverrideableXCAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverrideableXCAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A847361B8BBBC300FC0F90 /* Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A8473A1B8BBBC300FC0F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A8473B1B8BBBC300FC0F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00A8473D1B8BBBC300FC0F90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,8 +52,9 @@
 		00A847951B8BC31200FC0F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A847961B8BC31200FC0F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00A847A11B8BC31200FC0F90 /* Override2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Override2.xcassets; sourceTree = "<group>"; };
-		5E2AD9CA84267DC934A5526C /* Pods-OverrideableXCAssets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverrideableXCAssets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverrideableXCAssets/Pods-OverrideableXCAssets.debug.xcconfig"; sourceTree = "<group>"; };
-		A757BB9D95882B5EE2BD95EA /* Pods-OverrideableXCAssets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverrideableXCAssets.release.xcconfig"; path = "Pods/Target Support Files/Pods-OverrideableXCAssets/Pods-OverrideableXCAssets.release.xcconfig"; sourceTree = "<group>"; };
+		159AB79F91E47CCDFA81DA8F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3682F19B74258BF4DCF779A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7935DB7F0382D60F1292C7C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A3EF5131CC861E9C54C7AE /* libPods-OverrideableXCAssets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverrideableXCAssets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D425F0884398FE4CCA4E0D /* libPods-OverrideableXCAssets.a in Frameworks */,
+				54F92812EEBF5FE3361E5A18 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA54DAF0EBD1E443038D5D2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0812EE3F977076067413A830 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,15 +94,15 @@
 				00A847641B8BC2B800FC0F90 /* Override1 */,
 				00A847931B8BC31200FC0F90 /* Override2 */,
 				00A847371B8BBBC300FC0F90 /* Products */,
-				4FCDE145453E3E3E88B1154F /* Pods */,
 				6C9E53BBA8332CC039F1A7E9 /* Frameworks */,
+				CC97EE6218E535BB4B8EC3AB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		00A847371B8BBBC300FC0F90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00A847361B8BBBC300FC0F90 /* OverrideableXCAssets.app */,
+				00A847361B8BBBC300FC0F90 /* Base.app */,
 				00A847631B8BC2B800FC0F90 /* Override1.app */,
 				00A847921B8BC31200FC0F90 /* Override2.app */,
 			);
@@ -162,29 +169,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4FCDE145453E3E3E88B1154F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5E2AD9CA84267DC934A5526C /* Pods-OverrideableXCAssets.debug.xcconfig */,
-				A757BB9D95882B5EE2BD95EA /* Pods-OverrideableXCAssets.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6C9E53BBA8332CC039F1A7E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D0A3EF5131CC861E9C54C7AE /* libPods-OverrideableXCAssets.a */,
+				7935DB7F0382D60F1292C7C7 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC97EE6218E535BB4B8EC3AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3682F19B74258BF4DCF779A9 /* Pods.debug.xcconfig */,
+				159AB79F91E47CCDFA81DA8F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00A847351B8BBBC300FC0F90 /* OverrideableXCAssets */ = {
+		00A847351B8BBBC300FC0F90 /* Base */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00A847591B8BBBC300FC0F90 /* Build configuration list for PBXNativeTarget "OverrideableXCAssets" */;
+			buildConfigurationList = 00A847591B8BBBC300FC0F90 /* Build configuration list for PBXNativeTarget "Base" */;
 			buildPhases = (
 				2E19C0FD94308C1FE30D7FAE /* Check Pods Manifest.lock */,
 				00A847321B8BBBC300FC0F90 /* Sources */,
@@ -196,18 +204,20 @@
 			);
 			dependencies = (
 			);
-			name = OverrideableXCAssets;
+			name = Base;
 			productName = OverrideableXCAssets;
-			productReference = 00A847361B8BBBC300FC0F90 /* OverrideableXCAssets.app */;
+			productReference = 00A847361B8BBBC300FC0F90 /* Base.app */;
 			productType = "com.apple.product-type.application";
 		};
 		00A847621B8BC2B800FC0F90 /* Override1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00A847871B8BC2B900FC0F90 /* Build configuration list for PBXNativeTarget "Override1" */;
 			buildPhases = (
+				A74B34A0DB17DD2A8D69CD06 /* Check Pods Manifest.lock */,
 				00A8475F1B8BC2B800FC0F90 /* Sources */,
 				00A847601B8BC2B800FC0F90 /* Frameworks */,
 				00A847611B8BC2B800FC0F90 /* Resources */,
+				551CA3478A3CBB60C71759CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00A847B21B8BC31200FC0F90 /* Build configuration list for PBXNativeTarget "Override2" */;
 			buildPhases = (
+				50904AC391C0CEDF3B08CA32 /* Check Pods Manifest.lock */,
 				00A8478E1B8BC31200FC0F90 /* Sources */,
 				00A8478F1B8BC31200FC0F90 /* Frameworks */,
 				00A847901B8BC31200FC0F90 /* Resources */,
+				564D309AC2753BACE1D4541E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,7 +280,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00A847351B8BBBC300FC0F90 /* OverrideableXCAssets */,
+				00A847351B8BBBC300FC0F90 /* Base */,
 				00A847621B8BC2B800FC0F90 /* Override1 */,
 				00A847911B8BC31200FC0F90 /* Override2 */,
 			);
@@ -323,10 +335,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OverrideableXCAssets/Pods-OverrideableXCAssets-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2E19C0FD94308C1FE30D7FAE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50904AC391C0CEDF3B08CA32 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		551CA3478A3CBB60C71759CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		564D309AC2753BACE1D4541E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74B34A0DB17DD2A8D69CD06 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -480,7 +552,7 @@
 		};
 		00A8475A1B8BBBC300FC0F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E2AD9CA84267DC934A5526C /* Pods-OverrideableXCAssets.debug.xcconfig */;
+			baseConfigurationReference = 3682F19B74258BF4DCF779A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OverrideableXCAssets/Info.plist;
@@ -491,7 +563,7 @@
 		};
 		00A8475B1B8BBBC300FC0F90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A757BB9D95882B5EE2BD95EA /* Pods-OverrideableXCAssets.release.xcconfig */;
+			baseConfigurationReference = 159AB79F91E47CCDFA81DA8F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OverrideableXCAssets/Info.plist;
@@ -502,6 +574,7 @@
 		};
 		00A847831B8BC2B900FC0F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3682F19B74258BF4DCF779A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -516,6 +589,7 @@
 		};
 		00A847841B8BC2B900FC0F90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159AB79F91E47CCDFA81DA8F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
 				INFOPLIST_FILE = Override1/Info.plist;
@@ -526,6 +600,7 @@
 		};
 		00A847B31B8BC31200FC0F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3682F19B74258BF4DCF779A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -540,6 +615,7 @@
 		};
 		00A847B41B8BC31200FC0F90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159AB79F91E47CCDFA81DA8F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon3;
 				INFOPLIST_FILE = Override2/Info.plist;
@@ -560,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00A847591B8BBBC300FC0F90 /* Build configuration list for PBXNativeTarget "OverrideableXCAssets" */ = {
+		00A847591B8BBBC300FC0F90 /* Build configuration list for PBXNativeTarget "Base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00A8475A1B8BBBC300FC0F90 /* Debug */,
@@ -576,6 +652,7 @@
 				00A847841B8BC2B900FC0F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A847B21B8BC31200FC0F90 /* Build configuration list for PBXNativeTarget "Override2" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +661,7 @@
 				00A847B41B8BC31200FC0F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

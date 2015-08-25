@@ -23,5 +23,8 @@
     "JRSwizzle": [
       "~> 1.0"
     ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
   }
 }

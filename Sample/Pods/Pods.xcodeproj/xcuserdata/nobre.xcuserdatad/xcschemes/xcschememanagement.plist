@@ -3,45 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict>
-		<key>JRSwizzle.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>Pods-OverrideableXCAssets.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>UIImage-OverrideableXCAssets.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UIImage-OverrideableXCAssets.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-	</dict>
+	<dict/>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>254F581F059B7D7F61FE215C524E993A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6095E4456C3508695AD0F4600D40D904</key>
+		<key>2D56DA1029F9D45D49821535990320A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>6E00AA31AC0CFA78CBDB444B38DCC04D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A68045A12CF240B3225E5FCEC425A0BF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
